@@ -25,7 +25,7 @@ La finalidad de este trabajo es:
 ### 🔹 Distribución de Churn por Método de Pago
 Clientes que pagan mediante `Electronic Check` tienden a abandonar más que quienes utilizan métodos automáticos como tarjeta de crédito o transferencia bancaria.
 
-![Método de Pago vs Churn](img/metodo_pago.png)
+![Método de Pago vs Churn](https://github.com/Lizett23/TelecomX_LATAM/blob/main/Churn_metodo.png)
 
 ---
 

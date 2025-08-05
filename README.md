@@ -32,14 +32,14 @@ Clientes que pagan mediante `Electronic Check` tienden a abandonar más que quie
 ### 🔹 Meses de Contrato
 La evasión ocurre principalmente durante los **primeros meses del contrato**, indicando que la fidelización temprana es crítica.
 
-![Meses Contrato vs Churn](img/meses_contrato.png)
+![Meses Contrato vs Churn](https://github.com/Lizett23/TelecomX_LATAM/blob/main/Churn_contrato.png)
 
 ---
 
 ### 🔹 Cargo Mensual
 Los clientes con cargos mensuales más altos tienden a abandonar con mayor frecuencia, sugiriendo una posible **sensibilidad al precio**.
 
-![Cargo Mensual vs Churn](img/cargo_mensual.png)
+![Cargo Mensual vs Churn](https://github.com/Lizett23/TelecomX_LATAM/blob/main/Cargo_churn.png)
 
 ---
 
@@ -48,8 +48,12 @@ Los clientes con cargos mensuales más altos tienden a abandonar con mayor frecu
 Puedes ejecutar el análisis de dos formas:
 
 ### 1. 🔗 Google Colab (Recomendado)
-- Abre el notebook desde este [enlace de Colab](https://colab.research.google.com/).
-- Sube tu archivo `dataset.csv` si es necesario.
+- Abre el notebook desde este [enlace de Colab](https://colab.research.google.com/drive/18ZCjgIXPgcMN3pcHPjJIi7Mwe14DmrTK?usp=sharing).
+- Importa la libreria pandas para luego agregar la URL del archivo JSON (raw)
+url = 'https://raw.githubusercontent.com/ingridcristh/challenge2-data-science-LATAM/main/TelecomX_Data.json'
+
+# Cargar datos directamente desde la API (GitHub Raw)
+df = pd.read_json(url)
 - Ejecuta las celdas paso a paso.
 
 ### 2. 🖥️ Localmente
@@ -61,7 +65,13 @@ Jupyter Notebook o VS Code
 pandas
 matplotlib
 seaborn
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+
+Luego, clona el repositorio y abre el notebook:
+
+git clone https://github.com/Lizett23/TelecomX_LATAM/blob/d50e252058a123ad1edf7c8593e5730fa9d2e013/TelecomX_LATAM.ipynb
+cd TelecomX_LATAM
 jupyter notebook
 
+----
+
+✍️ Autora: Lizett Tapia Morales
